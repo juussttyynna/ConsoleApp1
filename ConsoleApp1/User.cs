@@ -26,6 +26,10 @@ namespace ConsoleApp1
         {
             this.score.Add(number);
         }
+        public void AddNegativePoints(int number)
+        {
+            this.score.Add(-1*number);
+        }
     }
 }
 
